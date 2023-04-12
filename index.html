@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <h1> CSE 110 Meeting Minutes</h1>
+        <nav>
+            <ul>
+                <li><a href="#4/12"> 4/12</a></li>
+                <li><a href="#4/16"> 4/16</a></li>
+                <li><a href="#4/18"> 4/18</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id = "4/12">
+            <section>
+                <hr size = "1">
+                <h2>4/12:</h2>
+                <h3>Group Introductions</h3>
+                <h4>Attendance</h4>
+                <ul>
+                    <li>Big Bird</li>
+                    <li> <span> Elmo </span></li>
+                    <li>Cookie <span> Monster </span></li>
+                    <li>Bert</li>
+                    <li>Ernie</li>
+                </ul>
+                <h4>Agenda</h4>
+                <ol>
+                    <li>Individual Introductions</li>
+                    <li>Get Dinner Together</li>
+                </ol>
+                <h4>Summary</h4>
+                <p>Elmo is red in color. Cookie Monster's favorite type of cookies are chocolate chip ones.</p>
+                <img src= "images/elmo.jpeg" alt ="Elmo" width= "100px">
+                <img src= "images/grover.jpeg" alt ="Grover"  width = "100px">
+                <h4>Comments</h4>
+                <details>
+                    <summary>Elmo</summary>
+                    <p>"Ernie sweats profusely and does not contribute."</p>
+                </details>
+                
+            </section>
+        </div>
+
+        <div id = "4/16">
+            <section>
+                <hr size = "1">
+                <h2>4/16:</h2>
+                <h3>First Brainstorm</h3>
+                <h4>Attendance</h4>
+                <ul>
+                    <li>Big Bird</li>
+                    <li>Elmo</li>
+                    <li>Cookie Monster</li>
+                    <li>Ernie</li>
+                </ul>
+                <h4>Agenda</h4>
+                <ol>
+                    <li>Come Up With Project Ideas</li>
+                    <li>Get Group & Individual Feedback</li>
+                </ol>
+                <h4>Summary</h4>
+                <p> Project idea #1 was a refrigerator that <strong>can be interfaced with a web app</strong>.<br>
+                Project idea #2 were <b>green</b> chocoate chip cookies.<br>
+                Project idea #3 was a <i>web application</i> to <em>track</em> Elmo's severe hair loss. <br>
+                The refrigerator took inspiration from: <br>
+                <a href = "https://www.homedepot.com/p/LG-Electronics-26-cu-ft-French-Door-Smart-Refrigerator-with-Ice-and-Water-Dispenser-in-PrintProof-Stainless-Steel-LFXS26973S/305573330"> LG Smart Refrigerator </a>
+                </p>
+
+                <audio controls src="recordings/Hello.mp3"></audio>
+                <h4>Comments</h4>
+                <details>
+                    <summary>Big Bird</summary>
+                    <p>"I think a bird feeder would also be an excellent project idea."</p>
+                </details>
+                <details>
+                    <summary>Cookie Monster</summary>
+                    <p>"I disagree. Cookies are much better!!"</p>
+                </details>
+            </section>
+        </div>
+
+        <div id = "4/18">
+            <section>
+                <hr size = "1">
+                <h2>4/18:</h2>
+                <h3>Task Assignment</h3>
+                <h4>Attendance</h4>
+                <ul>
+                    <li>Big Bird</li>
+                    <li>Cookie Monster</li>
+                    <li>Bert</li>
+                    <li>Ernie</li>
+                </ul>
+                <h4>Agenda</h4>
+                <ol>
+                    <li>Create Project Timeline</li>
+                    <li>Determine Individual Strenghts/Project Interests</li>
+                    <li>Assign Tasks</li>
+                </ol>
+                <h4>Summary</h4>
+                <p>We have determined that the project will be completed in 2 days.</p>
+                <video width="320" height="240" controls>
+                    <source src="recordings/groupMeeting.mp4" type="video/mp4">
+                    <source src="recordings/groupMeeting.mp4" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <hr size = "1">
+        <h2>Feedback Form</h2>
+
+        <form>
+            <fieldset>
+                <label for="fname">First & Last Name:</label>
+                <input type ="text" id="fname"><br><br>
+                <label for="email">Email:</label>
+                <input type ="text" id="email"><br><br>
+
+                <h4>How are you feeling?</h4>
+                <label for="emotion1">Sad</label>
+                <input type ="checkbox" id="emotion1"> <br><br>
+                <label for="emotion2">Very Sad</label>
+                <input type ="checkbox" id="emotion2"> <br><br>
+                <label for="emotion3">Okay</label>
+                <input type ="checkbox" id="emotion3"> <br><br>
+
+                <h4>What meals have you eaten today?</h4>
+                <input type="radio" id="nothing" name="mealsEaten" value="nothing">
+                <label for="nothing">I don't eat.</label><br>
+                <input type="radio" id="dinner" name="dinner" value="dinner">
+                <label for="dinner">Just dinner.</label><br><br>
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="6" cols="80">
+                </textarea>
+
+                <label for="color">What is your favorite color?</label>
+                <input list="colors" name="color" id="color">
+                <datalist id="colors">
+                  <option value="Green">
+                  <option value="Somewhat Green">
+                  <option value="Very Green">
+                  <option value="A Color Other Than Greem">
+                </datalist><br><br>
+
+                <label for="car">What is your favorite car?</label>
+                <select name = "cars" id="cars">
+                  <option value="greenCar">A green car</option>
+                  <option value="redCar">A red car</option>  
+                  <option value="fiat">Fiat 500</option>  
+                  </select> <br><br>
+                
+                  <button type="button">Submit Form</button>
+                  <button type="button">Clear Form</button>
+
+
+            </fieldset>
+            
+        </form>
+
+    </footer>
+    
+    
+</body>
+</html>
