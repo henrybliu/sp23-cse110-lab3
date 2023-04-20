@@ -16,3 +16,22 @@ h1 {
   position: sticky;
   top: 40px;
 }
+
+/* style nav bar */
+h2,
+h4,
+strong {
+  background-color: lightseagreen;
+}
+
+nav {
+  background-color: lightslategray;
+  font-size: 25px;
+  margin: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  display: block;
+}
