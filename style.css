@@ -86,3 +86,21 @@ main {
 #April16 details > p {
   color: blue;
 }
+
+#April18 {
+  padding: 10px 10px;
+  background-color: orange;
+  font-size: 50%;
+  position: relative;
+  top: 500px;
+  right: 200px;
+}
+
+#April18 h3 ~ h4 {
+  color: purple;
+  font-size: 50px;
+}
+
+#April18 p.timeline {
+  background-color: green;
+}
