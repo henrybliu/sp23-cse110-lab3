@@ -67,3 +67,22 @@ main {
 .imageContainer {
   display: inline-block;
 }
+/* styling 4/16 */
+#April16 {
+  padding: 10px 100px;
+  background-color: lightgray;
+  font-size: 10%;
+  max-height: 400px;
+  max-width: 200px;
+  color: red;
+  text-align: center;
+}
+
+#April16 summary {
+  font-size: 20px;
+  color: red;
+}
+
+#April16 details > p {
+  color: blue;
+}
