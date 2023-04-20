@@ -1,0 +1,18 @@
+/* apply to font to entire page */
+* {
+  font-family: 'Sedgwick Ave Display', sans-serif;
+}
+
+/* set background color for body */
+body {
+  background-color: #bda9a5;
+}
+
+/* style title of page */
+h1 {
+  background-color: rgb(50, 0, 200);
+  font-size: 100px;
+  text-decoration: underline overline #ff3028;
+  position: sticky;
+  top: 40px;
+}
