@@ -35,3 +35,35 @@ nav {
 .navContainer {
   display: block;
 }
+
+/* style 4/12 */
+main {
+  background-color: hsl(150deg 30% 60%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+
+#April12 {
+  padding: 10px 10px 10px 50px;
+  background-color: lightcoral;
+  font-size: 80%;
+  border-style: dotted;
+  border-color: blue;
+  border-width: 15px;
+  border-radius: 25% 10%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+#April12 ul + h4 {
+  background-color: red;
+  font-size: 50px;
+}
+
+.imageContainer {
+  display: inline-block;
+}
