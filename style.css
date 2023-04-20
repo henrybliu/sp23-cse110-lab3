@@ -87,6 +87,7 @@ main {
   color: blue;
 }
 
+/* styling 4/18 */
 #April18 {
   padding: 10px 10px;
   background-color: orange;
@@ -102,5 +103,37 @@ main {
 }
 
 #April18 p.timeline {
+  background-color: green;
+}
+
+/* styling form */
+form {
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+button:active {
+  color: red;
+}
+
+.topForm {
+  height: 100px;
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  /* change cursor to pointer on hover for button */
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+a[target='_blank'] {
   background-color: green;
 }
