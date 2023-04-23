@@ -26,10 +26,12 @@ strong {
 
 nav {
   background-color: lightslategray;
-  font-size: 25px;
+  font-size: 2cm;
   margin: 50px 50px 50px 50px;
   display: flex;
   justify-content: center;
+  height: 40vh;
+  width: 30vw;
 }
 
 .navContainer {
@@ -65,6 +67,10 @@ main {
   font-size: 50px;
 }
 
+#April12 summary {
+  font-size: 5em;
+}
+
 .imageContainer {
   display: inline-block;
 }
@@ -72,7 +78,7 @@ main {
 #April16 {
   padding: 10px 100px;
   background-color: lightgray;
-  font-size: 10%;
+  font-size: 5pt;
   max-height: 400px;
   max-width: 200px;
   color: red;
@@ -80,8 +86,8 @@ main {
 }
 
 #April16 summary {
-  font-size: 20px;
-  color: red;
+  font-size: 20pt;
+  color: purple;
 }
 
 #April16 details > p {
